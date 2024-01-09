@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      background-color: #f5d04e;
+    }
+
+    .box {
+      margin: 170px auto 0;
+      width: 305px;
+      height: 420px;
+      border: 2px solid black;
+      border-radius: 20px;
+      background-color: #ffffff;
+      /* padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px; */
+      padding: 15px 15px 0 15px;
+      box-shadow: 6px 6px black;
+    }
+
+    .box:hover {
+      transition: box-shadow 1s ease 0s;
+      box-shadow: 10px 10px black;
+    }
+
+    img {
+      display: inline-block;
+      width: 274px;
+      height: 160px;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    span {
+      padding: 4px 10px;
+      width: 70px;
+      height: 20px;
+      background-color: #f5d04e;
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    .date {
+      font-size: 14px;
+      margin: 15px 0 18px;
+    }
+
+    h3 {
+      line-height: 1;
+      margin-bottom: 18px;
+    }
+
+    h3:hover {
+      color: rgb(244, 206, 69);
+    }
+
+    .touxiang {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      vertical-align: middle;
+      margin-bottom: 0;
+    }
+
+    .para {
+      margin-bottom: 25px;
+      font-size: 12px;
+    }
+
+    h6 {
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <img src="./assets/images/illustration-article.svg" alt="">
+    <span>Learning</span>
+    <p class="date">Published 21 Dec 2023</p>
+    <h3>HTML & CSS foundations</h3>
+    <p class="para">These languages are the backbone of every website, defining structure, content, and presentation.
+    </p>
+    <div>
+      <img src="./assets/images/image-avatar.webp" alt="" class="touxiang">
+      <h6>Greg Hooper</h6>
+    </div>
+  </div>
+  <br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Ivy-Shu">Ivy-Shu</a>.
+  </div>
+</body>
+
+</html>
